@@ -1,8 +1,10 @@
 <?php
-$book = [
-    'title' => 'Капитанская дочка',
-    'author' => 'Александр Пушкин',
-    'pages' => 208
-];
-print_r($book);
-?>
+$discount = 50;
+
+function applyDiscount($price) {
+    global $discount;
+    $finalPrise = $price - $discount;
+    return $finalPrise;
+}
+ echo applyDiscount(500);
+ ?>
