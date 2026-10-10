@@ -1,0 +1,5 @@
+<?php
+$prices = [100, 250, 500, 1200];
+foreach ($prices as $price) {
+  echo " $price.руб ";
+}
